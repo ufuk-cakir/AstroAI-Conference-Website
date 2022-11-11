@@ -34,14 +34,34 @@ footer, header, hgroup, menu, nav, section {
 
 
 
+.rounded{
+	border-width: 3px;
+	border-radius: 30px;
+	border-color:#1ebdd1;
+	
+}
+
+.video-contain{
+	position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+}
 
 
 .back-video{
 	position: absolute;
-	right: 0;
-	bottom: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    min-height: 50%;
+    min-width: 50%;
 	z-index: -0.5;
-	opacity: .5;
+	opacity: 0.6;
+	
 }
 @media (min-aspec-ratio: 16/9) {
 	.back-video{
@@ -118,6 +138,7 @@ input, select, textarea {
 
 	html {
 		box-sizing: border-box;
+		overscroll-behavior: none;
 	}
 
 	*, *:before, *:after {
@@ -180,6 +201,7 @@ input, select, textarea {
 	body {
 		/*background-color: #a4a7e2;*/
 		background-color: #252321;
+		background-color: #131428;
 		color: #ffffff;
 		
 	}
