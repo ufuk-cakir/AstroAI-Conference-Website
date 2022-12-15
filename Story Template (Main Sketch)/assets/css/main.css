@@ -42,8 +42,18 @@ footer, header, hgroup, menu, nav, section {
 }
 .logos-list {
 	list-style-type: none;
+	display:inline;
 	
 }
+
+ul.logos-list li{
+	display: inline;
+	padding: 1.5%;
+}
+
+
+
+
 
 .logo-container img{
 	display: inline-block;
@@ -2313,6 +2323,7 @@ input, select, textarea {
 
 	form {
 		margin: 0 0 2rem 0;
+		
 	}
 
 		form > :last-child {
@@ -2343,6 +2354,7 @@ input, select, textarea {
 				flex-shrink: 0;
 				padding: 1.5rem 0 0 1.5rem;
 				width: calc(100% - 1.5rem);
+				
 			}
 
 				form > .fields > .field.half {
@@ -2559,7 +2571,7 @@ input, select, textarea {
 	input[type="url"],
 	select,
 	textarea {
-		border-color: rgba(0, 0, 0, 0.2);
+		border-color: #f8d093;
 	}
 
 		input[type="text"]:focus,
